@@ -1,10 +1,13 @@
 /* ilgili etiketin class'ını burdakiler gibi verdiğimizde direkt olarak stillenmiş olacak */
 
 
+
+
 /* text */
 
 .text-center {
     text-align: center;
+
 }
 
 .heading-small {
@@ -23,20 +26,16 @@
 
 /* colors */
 
-.bg-dark-blue{
+.bg-dark-blue {
     background: #062e51;
 }
 
-.bg-light-blue{
+.bg-light-blue {
     background: #336ea2;
 }
 
 
-
 /* container */
 
-.container{
-    max-width: 1100px;
-    margin: 0 auto;
-    
-}
+
+
