@@ -11,6 +11,7 @@ a {
 
 html {
     font-family: "Open Sans", sans-serif;
+    background-color: #D7DDE3;
 }
 
 #navbar {
@@ -19,9 +20,57 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 0 0.75rem;
+    height: 70px;
+
+    
 
 }
 
 #navbar ul {
     list-style-type: none;
+    display: flex;
+    align-items: center;
 }
+
+#navbar ul li a{
+    padding: 0.75rem;
+    
+}
+
+#navbar ul li a:hover{
+    background: #336ea2;
+    border-radius: 5px;
+   
+}
+
+/* home section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+
+#home img{
+    max-width: 100%; 
+    /* height: auto;    */
+    border-radius: 100%;
+
+   
+}
+
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+
+
+
+
