@@ -7,3 +7,12 @@
     height: 80px;
 
 }
+
+#training .items{
+    flex-direction: column;
+    width: 100%;
+}
+
+#training .items .item{
+    width: 100%;
+}
