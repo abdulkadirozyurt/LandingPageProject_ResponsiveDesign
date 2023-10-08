@@ -66,6 +66,29 @@
     text-align: center;
 }
 
+
+/* Forms */
+
+.form-group{
+    padding: 0.25rem 0;
+
+}
+.form-group label{
+    display: block;
+}
+
+.form-control{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
 /* container */
 
 
